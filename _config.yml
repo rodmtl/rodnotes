@@ -17,8 +17,8 @@ title: RodNotes
 email: rodmtl@outlook.es
 description: >- # this means to ignore newlines until "baseurl:"
   RodMtl Tech & DevOps Notes. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "rodnotes" # the subpath of your site, e.g. /blog
+url: "https://rodmtl.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rrv4u
 github_username:  rodmtl
 
