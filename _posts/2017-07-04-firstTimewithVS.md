@@ -1,33 +1,33 @@
 ---
 layout: post
-title:  ".ne Dev 101"
-date:   2018-07-04 00:46:36 -0400
+title:  ".net Dev 101"
+date:   2018-07-04 03:46:36 -0400
 categories: VS2017 dev
 ---
 ## First time with visual studio?
 ### First time with c#?
 
-Go to - https://my.visualstudio.com using your MSDN account.
+Go to - <https://my.visualstudio.com> using your MSDN account.
 
 1. Download visual studio. This will take acouple of hours at least.
 2. Activate Pluralsight benefit.
 
-https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents
-https://app.pluralsight.com/library/courses/csharp-from-scratch/table-of-contents
-https://app.pluralsight.com/library/courses/csharp-from-scratch-part2/table-of-contents
+<https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents>
+<https://app.pluralsight.com/library/courses/csharp-from-scratch/table-of-contents>
+<https://app.pluralsight.com/library/courses/csharp-from-scratch-part2/table-of-contents>
 
 
 ----
 ## .net MVC Developer Resources:
 
-####ASP.net
-- https://app.pluralsight.com/library/courses/tfs-visual-studio-2017-continuous-delivery-devops/table-of-contents
+#### ASP.net
 
-- https://app.pluralsight.com/library/courses/full-stack-dot-net-developer-fundamentals
-- https://app.pluralsight.com/library/courses/full-stack-dot-net-developer
+<https://app.pluralsight.com/library/courses/tfs-visual-studio-2017-continuous-delivery-devops/table-of-contents>
+<https://app.pluralsight.com/library/courses/full-stack-dot-net-developer-fundamentals>
+<https://app.pluralsight.com/library/courses/full-stack-dot-net-developer>
 
-####.net core (https://en.wikipedia.org/wiki/ASP.NET_Core)
-- https://app.pluralsight.com/library/courses/aspdotnetcore-web-application-building/table-of-contents
+#### .net core (<https://en.wikipedia.org/wiki/ASP.NET_Core>)
+<https://app.pluralsight.com/library/courses/aspdotnetcore-web-application-building/table-of-contents>
 ----
 ## New developer joining your team:
 
@@ -53,7 +53,7 @@ https://app.pluralsight.com/library/courses/csharp-from-scratch-part2/table-of-c
 - Keep at minimum the JS on the views, instead you can create JS files(Sevices) and include it in the bundle.
 - Access DB only trhough the unit of work class. Use dependency injection in all the classes. (Currently using ninject)
 - In forms always add tabindex property to the controls in order to able navigation with the tab key.
-- Kendo UI Icons (For buttons): https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web
+- Kendo UI Icons (For buttons): <https://docs.telerik.com/kendo-ui/styles-and-layout/icons-web>
 - Principal action on the form should always be on prymary color.
 - If you are developing intranet Apps all JS and CSS must be local referenced and bundled in the .net app
 
@@ -104,15 +104,11 @@ function grid_error(e) {
 Setup all Grids to use the new Error Catch Js Function. 
 
 {% highlight c# %}
-	.Events(events => events.Error("grid_error")) // Handle the "error" event.
+.Events(events => events.Error("grid_error")) // Handle the "error" event.
 {% endhighlight %}
-
-	
-+ Error Handling In Counter Bar.
-    - Added Exception handling in Ajax call.
 
 + Fix All get Methods in controllers to return an Error to the UI.
 	- Check each controller. Catch Portion should:
-	- Errors need to be logged and added to the model state.
-	- Return jsons with the Model state. 
+	    - Errors need to be logged and added to the model state.
+	    - Return jsons with the Model state. 
 

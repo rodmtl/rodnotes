@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MVC on dot net and Code First Resources"
+title:  "MVC on dot net and EF Code First Resources"
 date:   2018-07-04 02:46:36 -0400
 categories: MVC dev
 ---
