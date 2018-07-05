@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ".NET core app in containers"
-date:   2018-07-04 03:46:36 -0400
+date:   2018-07-04 04:46:36 -0400
 categories: VS2017 azure dev docker
 ---
 ## Using win 7 using VM virtual box. 
