@@ -2,7 +2,7 @@
 layout: post
 title:  "MVC on dot net and Code First Resources"
 date:   2018-07-04 02:46:36 -0400
-categories: MVC, dev
+categories: MVC dev
 ---
 <h3>.net MVC Developer course</h3>
 
