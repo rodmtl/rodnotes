@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  ".net Dev 101"
+title:  ".NET Dev 101"
 date:   2018-07-04 03:46:36 -0400
 categories: VS2017 dev
 ---
-## First time with visual studio?
+## First time with Visual Studio?
 ### First time with c#?
 
 Go to - <https://my.visualstudio.com> using your MSDN account.
@@ -13,22 +13,30 @@ Go to - <https://my.visualstudio.com> using your MSDN account.
 2. Activate Pluralsight benefit.
 
 <https://app.pluralsight.com/library/courses/c-sharp-fundamentals-with-visual-studio-2015/table-of-contents>
+
 <https://app.pluralsight.com/library/courses/csharp-from-scratch/table-of-contents>
+
 <https://app.pluralsight.com/library/courses/csharp-from-scratch-part2/table-of-contents>
 
 
 ----
+
 ## .net MVC Developer Resources:
 
 #### ASP.net
 
 <https://app.pluralsight.com/library/courses/tfs-visual-studio-2017-continuous-delivery-devops/table-of-contents>
+
 <https://app.pluralsight.com/library/courses/full-stack-dot-net-developer-fundamentals>
+
 <https://app.pluralsight.com/library/courses/full-stack-dot-net-developer>
+
 
 #### .net core (<https://en.wikipedia.org/wiki/ASP.NET_Core>)
 <https://app.pluralsight.com/library/courses/aspdotnetcore-web-application-building/table-of-contents>
+
 ----
+
 ## New developer joining your team:
 
 - Get the solution from VSTS. 
@@ -37,9 +45,12 @@ Go to - <https://my.visualstudio.com> using your MSDN account.
 - Get and setup yor DB Access:
 	Server, user
 	
+
 ----
+
 ##	Dev tricks and tips:
-### _mostly for MVc with Telerik Kendo UI Framework_
+### _mostly for MVC with Telerik Kendo UI Framework_
+
 - All the actions in controllers must have the Authorize atribute.
 - Keep controllers as small as possible. (Use Services to code Data transformations, etc.)
 - Keep buttons style and layout the same as the already built forms (Design consistency)
@@ -59,6 +70,7 @@ Go to - <https://my.visualstudio.com> using your MSDN account.
 
 
 ----
+
 ### Kendo Grid Error Handling
 
 Changed exception catch on global.asax in case is an exception rised by an Ajax Call (Grids)
@@ -101,11 +113,13 @@ function grid_error(e) {
 {% endhighlight %}
 
 
+
 Setup all Grids to use the new Error Catch Js Function. 
 
 {% highlight c# %}
 .Events(events => events.Error("grid_error")) // Handle the "error" event.
 {% endhighlight %}
+
 
 + Fix All get Methods in controllers to return an Error to the UI.
 	- Check each controller. Catch Portion should:
