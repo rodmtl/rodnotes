@@ -9,5 +9,4 @@ github_username:  rodmtl
 
 # Build settings
 markdown: kramdown
-s
 theme: jekyll-theme-minimal
