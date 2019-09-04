@@ -10,3 +10,5 @@ github_username:  rodmtl
 
 # Build settings
 theme: minima
+plugins:
+  - jekyll-feed
