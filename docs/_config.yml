@@ -1,4 +1,5 @@
-title: RodNotes
+name: RodNotes
+markdown: kramdown
 email: rodmtl@outlook.es
 description: >- # this means to ignore newlines until "baseurl:"
   RodMtl Tech & DevOps Notes. 
