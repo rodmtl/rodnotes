@@ -24,6 +24,6 @@ github_username:  rodmtl
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
